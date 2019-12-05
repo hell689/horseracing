@@ -1,0 +1,150 @@
+body {
+     background: #eee;
+     color: #005;
+     font-family: Arial, sans-serif;
+     font-size: 20px;
+     margin-left:7%;
+     margin-right:7%;
+}
+
+#header {
+     width: 100%;
+     height: 85px;
+     border-radius: 10px; 
+}
+
+#header h1{
+	margin-top: 10px;
+	color: red;
+	text-align: center;
+	font-size: 300%;
+}
+
+#container {
+     margin: auto auto;
+     text-align: center;
+     width: 100%;
+     min-height: 500px;
+     overflow: auto;
+     border-radius: 10px; 
+}
+
+#userinfo {
+     background: #dEd7f8;
+     margin-top: -30px;
+     width: 100%;
+     float: center;
+}
+
+#content {
+     float: center;
+     width: 100%;
+     min-height: 280px;
+     overflow: auto;
+     border-radius: 10px; 
+     margin: auto;
+}
+
+table {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 18px;
+  background: white;
+  max-width: 100%;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+th {
+  font-weight: normal;
+  color: #039;
+  border-bottom: 2px solid #6678b1;
+  padding: 10px 18px;
+  text-align: center;
+}
+td {
+  color: #669;
+  padding: 9px 8px;
+  transition: .3s linear;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+tr:hover td {color: #6699ff;}
+
+.menu {
+  list-style: none;
+  margin: 10px 0 5px;
+  padding: 25px 0 5px;
+  text-align: center;
+  background: white;
+}
+.menu li {display: inline-block;}
+.menu li:after {
+  content: "|";
+  color: #606060;
+  display: inline-block;
+  vertical-align:top;
+}
+.menu li:last-child:after {content: none;}
+.menu a {
+  text-decoration: none;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  letter-spacing: 2px;
+  position: relative;
+  padding-bottom: 20px;
+  margin: 0 20px 0 20px;
+  font-size: 17px;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: color .2s;
+}
+.menu a, .menu a:visited {color: #5d99dd;}
+.menu a.current, .menu a:hover{color: #aeb386;}
+
+@media (max-width: 550px) {
+.menu {padding-top: 0;}
+.menu li {display: block;}
+.menu li:after {content: none;}
+.menu a {
+  padding: 25px 0 20px; 
+  margin: 0 10px;
+}
+}
+
+.mess {
+	color: red;
+}
+
+.error {
+	color: red;
+}
+
+button{
+	font-size: 14pt;
+	color: #006;
+	margin: 5px;
+}
+
+button.delete {
+	color: #911;
+}
+
+button:disabled{
+	color: #999;
+}
+
+select {
+	font-size: 14pt;
+	color: #009
+}
+
+input {
+	font-size: 14pt;
+	color: #009
+}
+
+a.addbalance{
+	font-size: 12pt;
+	color: #b0b;
+}
+
